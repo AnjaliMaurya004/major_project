@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Welcome to TaskPro{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/welcome.css' %}">
+{% endblock %}
+
+{% block content %}
+<div class="welcome-container">
+    <div class="welcome-content">
+        <div class="logo-container">
+            <i class="fas fa-tasks"></i>
+        </div>
+        <h1 class="welcome-title">TaskPro</h1>
+        <p class="welcome-quote">"Success is the sum of small efforts repeated day in and day out."</p>
+        <p class="welcome-author">- Robert Collier</p>
+        <div class="loading-bar">
+            <div class="loading-progress"></div>
+        </div>
+    </div>
+</div>
+
+<script>
+    setTimeout(() => {
+        window.location.href = '/login/';
+    }, 3000);
+</script>
+{% endblock %}

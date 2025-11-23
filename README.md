@@ -56,7 +56,7 @@ pythonDATABASES = {
 
 ## 5. Run migrations
 
-bashpython manage.py makemigrations
+bashpython manage.py makemigrations  
 python manage.py migrate
 
 ## 6.Create superuser (optional)
@@ -68,23 +68,23 @@ bashpython manage.py createsuperuser
 bashpython manage.py runserver
 
 ## 9. Access the application
-Homepage: http://127.0.0.1:8000/
+Homepage: http://127.0.0.1:8000/  
 Admin Panel: http://127.0.0.1:8000/admin/
 
 # USE:
 
-Register: Create a new account on the registration page
-Login: Sign in with your credentials
-Dashboard: View all your tasks with statistics
-Add Task: Click "Add New Task" button to create a task
-Manage: Edit, complete, or delete tasks using action buttons
+Register: Create a new account on the registration page  
+Login: Sign in with your credentials  
+Dashboard: View all your tasks with statistics  
+Add Task: Click "Add New Task" button to create a task  
+Manage: Edit, complete, or delete tasks using action buttons  
 Filter: Use sidebar and search to filter tasks
 
 # Tech Stack
 
-Backend: Django 4.x, Django REST Framework, JWT Authentication
-Database: MySQL
-Frontend: HTML5, CSS3, Vanilla JavaScript
+Backend: Django 4.x, Django REST Framework, JWT Authentication  
+Database: MySQL  
+Frontend: HTML5, CSS3, Vanilla JavaScript  
 Icons: Font Awesome
 
 

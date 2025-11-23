@@ -87,4 +87,9 @@ Database: MySQL
 Frontend: HTML5, CSS3, Vanilla JavaScript  
 Icons: Font Awesome
 
+![welcome](assets/screenshots/welcome.png) 
+![Home](assets/screenshots/home.png)  
+![signin](assets/screenshots/signin.png)  
+![signup](assets/screenshots/signup.png)  
+![addtask](assets/screenshots/addtask.png)
 
